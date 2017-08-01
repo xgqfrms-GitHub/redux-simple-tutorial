@@ -419,10 +419,10 @@ console.log( store.getState() ); // { counter: 1 }
 > 由上可知，Redux 并不一定要搭配 React 使用。Redux 纯粹只是一个状态管理库，几乎可以搭配任何框架使用  
 > （上述例子连 jQuery 都没用哦亲）
 
-## [&sect; 下一章：Redux 进阶教程][advanced-tutorial]
+## [&sect; 下一章：Redux 进阶教程][advanced-tutorial.md]
 
 [this-github]: https://github.com/kenberkeley/redux-simple-tutorial
-[advanced-tutorial]: https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md
+[advanced-tutorial]: ./redux-advanced-tutorial.md
 [react-demo]: https://github.com/kenberkeley/react-demo
 [flux]: https://github.com/facebook/flux
 [reflux]: https://github.com/reflux/refluxjs

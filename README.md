@@ -1,5 +1,5 @@
 # Redux 简明教程
-> 原文链接（保持更新）：[https://github.com/kenberkeley/redux-simple-tutorial][this-github]
+> 原文链接（保持更新）：https://github.com/kenberkeley/redux-simple-tutorial
 
 > ### 写在前面 
 > 本教程深入浅出，配套 简明教程、[进阶教程][advanced-tutorial]（源码精读）以及文档注释丰满的 [Demo][react-demo] 等一条龙服务  
@@ -419,10 +419,8 @@ console.log( store.getState() ); // { counter: 1 }
 > 由上可知，Redux 并不一定要搭配 React 使用。Redux 纯粹只是一个状态管理库，几乎可以搭配任何框架使用  
 > （上述例子连 jQuery 都没用哦亲）
 
-## [&sect; 下一章：Redux 进阶教程][advanced-tutorial.md]
+## [&sect; 下一章：Redux 进阶教程](redux-advanced-tutorial.md)
 
-[this-github]: https://github.com/kenberkeley/redux-simple-tutorial
-[advanced-tutorial]: ./redux-advanced-tutorial.md
 [react-demo]: https://github.com/kenberkeley/react-demo
 [flux]: https://github.com/facebook/flux
 [reflux]: https://github.com/reflux/refluxjs

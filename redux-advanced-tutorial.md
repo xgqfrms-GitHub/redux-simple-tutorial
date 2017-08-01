@@ -1,14 +1,16 @@
 # Redux 进阶教程
-> 原文（保持更新）：[https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md][advanced-tutorial]
+> 原文（保持更新）：https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md
 
 > ### 写在前面  
-> 相信您已经看过 [Redux 简明教程][simple-tutorial]，本教程是简明教程的实战化版本，伴随源码分析  
+> 相信您已经看过 [Redux 简明教程](redux-simple-tutorial.md)，本教程是简明教程的实战化版本，伴随源码分析  
 > Redux 用的是 ES6 编写，看到有疑惑的地方的，可以复制粘贴到[这里][babel-repl]在线编译 ES5
 
 ## &sect; Redux API 总览
 在 Redux 的[源码目录][redux-src] `src/`，我们可以看到如下文件结构：
 
-```
+```sh
+$ tree src
+
 ├── utils/
 │     ├── warning.js # 打酱油的，负责在控制台显示警告信息
 ├── applyMiddleware.js
@@ -917,8 +919,9 @@ Redux 有五个 API，分别是：
 
 > 拓展阅读：[中间件的洋葱模型][middleware-onion-model]
 
-[simple-tutorial]: https://github.com/kenberkeley/redux-simple-tutorial
-[advanced-tutorial]: https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md
+https://github.com/kenberkeley/redux-simple-tutorial
+https://github.com/kenberkeley/redux-simple-tutorial/blob/master/redux-advanced-tutorial.md
+
 [babel-repl]: http://babeljs.io/repl/
 [redux-src]: https://github.com/reactjs/redux/tree/master/src
 [redux-thunk]: https://github.com/gaearon/redux-thunk
@@ -934,4 +937,5 @@ Redux 有五个 API，分别是：
 [this-issue]: https://github.com/kenberkeley/redux-simple-tutorial/issues
 [this-github]: https://github.com/kenberkeley/redux-simple-tutorial
 [react-demo]: https://github.com/kenberkeley/react-demo
-[middleware-onion-model]: https://github.com/kenberkeley/redux-simple-tutorial/blob/master/middleware-onion-model.md
+
+https://github.com/kenberkeley/redux-simple-tutorial/blob/master/middleware-onion-model.md
